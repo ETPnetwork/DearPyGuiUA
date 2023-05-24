@@ -1,7 +1,7 @@
 Menu Bar
 ========
 
-DPG contains to two types of Menu Bars
+DPG містить до двох типів панелей меню
 
 Viewport Menu Bar 
     Attached to the viewport
