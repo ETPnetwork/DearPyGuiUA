@@ -1,15 +1,13 @@
 Popups
 ======
 
-Popups are windows that disappear when clicked outside of the popup's border.
+Спливаючі вікна - це вікна, які зникають при натисканні за межами спливаючого вікна.
 
-They are typically used as context menus when right-clicking an item or as dialogs.
+Зазвичай вони використовуються як контекстні меню при клацанні правою кнопкою миші на елементі або як діалогові вікна.
 
-In DPG, popups are just windows with *popup* set to **True**, *show* set to **False**,
-and a *clicked_handler* attached to a widget that shows the window when clicked.
+У DPG спливаючі вікна - це просто вікна зі значенням *popup*, встановленим у **True**, *show*, встановленим у **False**, і *clicked_handler*, прикріпленим до віджета, який показує вікно при натисканні.
 
-Normally when used, a popup will be shown until you click away from it.
-By default, a right click activates the popup.
+Зазвичай спливаюче вікно показується доти, доки ви не клацнете на ньому мишею. За замовчуванням спливаюче вікно активується клацанням правою кнопкою миші.
 
 **Code**
 
@@ -38,10 +36,9 @@ By default, a right click activates the popup.
 Modal Usage
 -----------
 
-When the modal keyword is set to **True**, the popup will be modal.
+Якщо ключове слово модальності має значення **True**, спливаюче вікно буде модальним.
 
-This prevents the user from interacting with other windows until the popup is closed.
-You must hide or delete the popup to remove it.
+Це не дозволяє користувачеві взаємодіяти з іншими вікнами, доки спливаюче вікно не буде закрито. Щоб прибрати спливаюче вікно, його потрібно сховати або видалити.
 
 **Code**
 
@@ -78,7 +75,7 @@ Mouse Button options include:
 Window as Dialog Popup
 ----------------------
 
-This is an example of a window made into a typical dialog.
+Це приклад вікна, перетвореного на типовий діалог.
 
 .. code-block:: python
 
