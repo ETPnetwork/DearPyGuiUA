@@ -4,23 +4,23 @@ Menu Bar
 DPG містить до двох типів панелей меню
 
 Viewport Menu Bar 
-    Attached to the viewport
+    Приєднано до області перегляду
+
+Menu Bar
+   Прикріплено до вказаного вікна
+
+За винятком того, що вони прив'язані до різних батьків, вони обидва діють однаково.
+
+Типовий рядок меню складається з наступних компонентів:
 
 Menu Bar:
-    Attached to a specified window
-
-Other than being attached to different parents they both act the same.
-
-A typical menu bar consists of the following components:
-
-Menu Bar:
-    The main menu ribbon. Used to contain menus.
+    Стрічка головного меню. Використовується для розміщення меню.
 Menu:
-    Popup windows that are used to contain items in a collapsable fashion.
+    Спливаючі вікна, які використовуються для відображення елементів у розбірному вигляді.
 Menu Item:
-    Items that can run callbacks and display a checkmark.
+    Елементи, які можуть запускати зворотні виклики та відображати галочку.
 
-Використання -----
+----- Використання -----
 
 Елементи, додані до рядка меню, відображаються зліва направо. 
 Елементи, додані до меню, відображаються зверху вниз.
@@ -29,7 +29,7 @@ Menu Item:
 
 Будь-який віджет можна додати до меню.
 
-**Приклад панелі меню у вікні перегляду
+**Приклад панелі меню у вікні перегляду** 
 
 .. code-block:: python
 
