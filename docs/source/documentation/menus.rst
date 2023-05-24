@@ -20,17 +20,16 @@ Menu:
 Menu Item:
     Items that can run callbacks and display a checkmark.
 
-Usage
------
+Використання -----
 
-Items added to the Menu Bar are displayed from left to right. 
-Items added to the menus are displayed from top to bottom.
+Елементи, додані до рядка меню, відображаються зліва направо. 
+Елементи, додані до меню, відображаються зверху вниз.
 
-Menus can be nested inside other menus.
+Меню можуть бути вкладені в інші меню.
 
-Any widget can be added to a menu.
+Будь-який віджет можна додати до меню.
 
-**Viewport Menu Bar Example**
+**Приклад панелі меню у вікні перегляду
 
 .. code-block:: python
 
